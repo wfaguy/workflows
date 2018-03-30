@@ -17,7 +17,7 @@ Anyhow, in the gui you can't really clean them out.
 Same reason, maybe you did some tests, it's full of reservations, and you just want them cleaned out.  Instead of deleting them manually, why not just remove them all in one go.
 
 ## Enable full RBAC
-see also [as command](../../commands/)
+see also [as command](https://github.com/wfaguy/commands/tree/master/Enable%20Full%20Workflow%20RBAC)
 
 When you deploy a new WFA server, by default it has all of these demo workflows.  In the admin menu, you can hide those, but they are only hidden in the GUI.  In the API they are still very much accessible !
 
