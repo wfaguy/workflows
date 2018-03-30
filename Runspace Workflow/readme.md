@@ -1,5 +1,5 @@
 # Runspace Workflow
-nvoking a workflow in a workflow.  It's been done before.  Of course we can have subworkflows (1 level deep).
+Invoking a workflow in a workflow.  It's been done before.  Of course we can have subworkflows (1 level deep).
 But I'm talking about invoking a loop-back (localhost) rest-call.
 
 When done in the traditional way, usually for something simple like the default "acquire datasource" workflow, it's something like : invoke-rest - wait - check result.
