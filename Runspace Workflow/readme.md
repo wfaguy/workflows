@@ -1,6 +1,6 @@
 # Runspace Workflow
 
-** current version 1.0.0 **
+**Version 1.0.0**
 
 Invoking a workflow in a workflow.  It's been done before.  Of course we can have subworkflows (1 level deep).
 But I'm talking about invoking a loop-back (localhost) rest-call.

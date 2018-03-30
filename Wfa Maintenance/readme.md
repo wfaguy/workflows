@@ -1,6 +1,6 @@
 # WFA maintenance
 
-** current version 1.0.2 **
+**Version 1.0.2**
 
 If you are working with WFA quite a lot, there are some maintenance tasks that might be handy.  And they are either not possible in the GUI, or they take a lot of manual work.
 
