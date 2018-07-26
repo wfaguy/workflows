@@ -9,7 +9,7 @@ A new WFA Doc generator with most features you'll want :
     * Workflows
     * Commands
     * Scheme's, dictionaries & datasources
-    * Exports Dar files (optionally)
+    * Exports Dar files
 
 # Content
 
@@ -46,5 +46,4 @@ A template is included, but you can make your own.
 
 # Export to dar-file
 You will notice that the commands to document the different objects have an additional option to export to dar-files.
-This requires a loop-back credentials to invoke this export.  This is not implemented in the workflow, but would be 5-minute change.
-Let me know if that's a requirement and I'll post an update.
+This requires a loop-back credentials to invoke this export, as it will then invoke rest to itself (localhost).  It now defaults to https://localhost, but can be overwritten in the commands.  It assumes a loop-back credentials "localhost", and can again be overridden in the commands.
