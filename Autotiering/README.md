@@ -23,12 +23,12 @@ Example :
 
 # Pack Content
 
-**Datasources : **
+**Datasources :**
 * import performance data from OCUM
 * import volume move information from OCUM
 * import an excel configuration file
 
-**Workflows : **
+**Workflows :**
 * setup
     * will install excel module
     * will copy sample configuration file to c:\temp
