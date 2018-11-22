@@ -47,3 +47,14 @@ A template is included, but you can make your own.
 # Export to dar-file
 You will notice that the commands to document the different objects have an additional option to export to dar-files.
 This requires a loop-back credentials to invoke this export, as it will then invoke rest to itself (localhost).  It now defaults to https://localhost, but can be overwritten in the commands.  It assumes a loop-back credentials "localhost", and can again be overridden in the commands.
+
+# Version Control
+A hidden feature perhaps.  In you description fields in wfa (for workflow & command), you can enable version control.
+Just add below your description (in wfa) :
+
+   # version control
+   1.0.0 Initial version
+   1.0.1 Next version
+   ... add more versions
+
+The doc generator will parse those and add a version control table in the document
