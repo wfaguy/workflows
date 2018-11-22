@@ -18,17 +18,17 @@ Example :
 
 # Promotion / Demotion
 
-A volume can be promoted to a faster tier (lower number) if it is too slow
-A volume can be demoted to a slower tier (higher number) if it is doing nothing (not busy & not slow)
+* A volume can be promoted to a faster tier (lower number) if it is too slow.
+* A volume can be demoted to a slower tier (higher number) if it is doing nothing (not busy & not slow)
 
 # Pack Content
 
-Datasources :
+**Datasources : **
 * import performance data from OCUM
 * import volume move information from OCUM
 * import an excel configuration file
 
-Workflows :
+**Workflows : **
 * setup
     * will install excel module
     * will copy sample configuration file to c:\temp
@@ -56,8 +56,8 @@ Workflows :
 
 The indicators are calculated based on formula's
 
-** performance indicator ** : avg_latency/latency_threshold*avg_latency_weight + highest_peak_in_hour/latency_threshold*peak_weight + peak_count_in_hour*peak_count_weight
-** busy indicator ** : IOPS/GB*busy_weight
+* **performance indicator** : avg_latency/latency_threshold*avg_latency_weight + highest_peak_in_hour/latency_threshold*peak_weight + peak_count_in_hour*peak_count_weight
+* **busy indicator** : IOPS/GB*busy_weight
 
 # Performance import
 
