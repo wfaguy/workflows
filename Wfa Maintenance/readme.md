@@ -13,8 +13,20 @@ These include both datasource execution logs & workflow execution logs.
 Why clean them ?  Maybe you want to give a demo and you want a clean start.  Maybe you prepared an environment for a customer and you want to clean you previous tests ?
 Anyhow, in the gui you can't really clean them out.
 
-## Clean all reservations
+You have the options
+* All
+* Before Timestamp
+* By JobExecutionId
+
+## Clean reservations
 Same reason, maybe you did some tests, it's full of reservations, and you just want them cleaned out.  Instead of deleting them manually, why not just remove them all in one go.
+Sometimes wfa is stuborn and you need to clean them 1 by 1.
+
+You have the options
+* All
+* Before Timestamp
+* By WorkflowUUID
+* By JobExecutionId
 
 ## Enable full RBAC
 see also [as command](https://github.com/wfaguy/commands/tree/master/Enable%20Full%20Workflow%20RBAC)
