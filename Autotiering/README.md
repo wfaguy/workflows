@@ -36,6 +36,7 @@ Example :
     * will make suggestions for volume move
     * operator must choose manually
     * operator can manipulate threshold and tuning settings
+	* a list of all volumes is shown with help columns why volume are or are not candidates
 * move volume - trigger automatically
     * no input, can be scheduled
 * clear performance data
