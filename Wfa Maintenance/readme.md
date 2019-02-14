@@ -1,6 +1,6 @@
 # WFA maintenance
 
-**Version 1.0.2**
+**Version 1.0.3**
 
 If you are working with WFA quite a lot, there are some maintenance tasks that might be handy.  And they are either not possible in the GUI, or they take a lot of manual work.
 
@@ -17,6 +17,7 @@ You have the options
 * All
 * Before Timestamp
 * By JobExecutionId
+* By Workflow name
 
 ## Clean reservations
 Same reason, maybe you did some tests, it's full of reservations, and you just want them cleaned out.  Instead of deleting them manually, why not just remove them all in one go.
